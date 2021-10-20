@@ -1,58 +1,110 @@
-*{
+*
+{
     box-sizing: border-box;
 }
-header
-{
-    font-family: 'Ephesis', cursive;
-    text-align: center;
-    font-size: 45px;
-    margin-top: 30px;
-    padding-bottom: 40px;
-}
-.row1
-{
-    display: flex;
-    border: 2px solid black;
-    flex-direction: row;
-}
-
-.row1 .news1{
-    border: 1px solid grey ;
-    padding: 10px 10px 10px 10px;
-    width: 33%;
-}
-.row1 .news2{
-    border: 1px solid grey ;
-    padding: 10px 10px 10px 10px;
-    width: 44%;
-}
-.row1 .news2 img{
+header{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-   
 }
-
-.row1 .news3{
-    border: 1px solid grey ;
-    padding: 10px 10px 10px 10px;
-    width: 33%;
+body
+{
+    background-color: #E0C9A6;
 }
-.row2{
+.brand-header
+{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: normal;
+}
+.row{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
+    border-top: 2px solid black;
+}
 
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
 }
-.row2 .news4
+.quater
 {
+    width: 33%;
+    padding: 0px 10px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.quater-bottom{
     width: 25%;
+    padding: 0px 10px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
 }
-.row2 .multisec
+
+
+
+.half{
+    width: 44%;
+    padding: 0px 10px;
+}
+.article-img
 {
+    width: 100%;
+}
+site-section {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+
+.other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.three-quarter {
     width: 75%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    list-style: none;
     
 }
-
-
+story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+.site-section-politics {
+    background-color: #ffeaa7;
+}
+.site-section-tech
+{
+background-color: #81ecec;
+}
+.site-section-local {
+    background-color: #55efc4;
+}
+.site-section-opinion {
+    background-color: #74b9ff;
+}
+.site-section-sports {
+    background-color: #a29bfe;
+}
+.section-link {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
