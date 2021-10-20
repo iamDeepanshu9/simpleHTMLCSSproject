@@ -20,6 +20,7 @@ body
     display: flex;
     flex-direction: row;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .article-title {
@@ -30,7 +31,8 @@ body
 }
 .quater
 {
-    width: 33%;
+    width: 25%;
+    flex-grow: 1;
     padding: 0px 10px;
     border-left: 1px solid grey;
     border-right: 1px solid grey;
@@ -42,42 +44,28 @@ body
     border-right: 1px solid grey;
 }
 
-
-
 .half{
-    width: 44%;
+    width: 50%;
+    flex-grow:2;
     padding: 0px 10px;
 }
 .article-img
 {
     width: 100%;
 }
-site-section {
+.site-section {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0%;
 }
 
-
-.other-sections {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
 .three-quarter {
-    width: 75%;
+    width: 25%;
+    border: 1px solid black;
 }
 ul{
     display: flex;
     flex-direction: column;
-    list-style-type: disc;
     list-style: none;
-    
 }
 story {
     border-right: 1px solid black;
@@ -99,6 +87,27 @@ background-color: #81ecec;
 .site-section-sports {
     background-color: #a29bfe;
 }
+
+.article-text{
+line-height: 1.5;
+}
+
+.other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin-right: 0;
+    
+}
+.site-section{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20%;
+}
+
 .section-link {
     color: black;
     text-decoration: none;
@@ -107,4 +116,6 @@ background-color: #81ecec;
     font-weight: bold;
     font-family: "Futura";
     color: #666;
+   padding-right: 0%;
+
 }
